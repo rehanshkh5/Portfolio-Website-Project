@@ -1,13 +1,44 @@
-# React + Vite
+# Sr. Frontend Developer Assessment – Creatiwise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Summary
 
-Currently, two official plugins are available:
+This project is a fully responsive React.js interface built as part of the Sr. Frontend Developer assessment for Creatiwise. It demonstrates clean structure, optimized performance, and interactive UI components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js**
+- **JSX**
+- **CSS (Modular)**
+- **Google Fonts**
+- **React Icons**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portfolio-Website-Project
+## Features
+
+### 1. FAQ Section
+
+An interactive Frequently Asked Questions component built using React `useState`.
+
+- Expand/collapse behavior
+- Smooth transitions
+- Fully responsive and accessible
+
+### 2. "What They Say" Section
+
+A testimonial slider showcasing user feedback.
+
+- Dynamic content with avatar and name
+- Manual navigation with arrows
+- Responsive layout with clean transitions
+
+### 3. Performance Optimization
+
+- Fast load times
+- Optimized asset handling
+- Responsive design for all devices
+
+## Key Highlights
+
+- Pixel-perfect layout
+- Mobile-first design
+- Clean and maintainable code
+- Fully interactive UI components
