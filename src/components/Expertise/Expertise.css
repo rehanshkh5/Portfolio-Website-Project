@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Title {
+  padding: 64px 100px 64px 14.5rem;
+  background-color: #000; /* add background if needed */
+}
+
+.span {
+  font-family: "Syne", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Skill Container */
+.Skilles {
+  color: #fff;
+  margin-top: 3rem;
+}
+
+.MainComainterSkill {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.SkillName li {
+  font-family: "Syne", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  list-style-type: square;
+  margin-bottom: 0.5rem;
+}
+
+.SkillName p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #cbcbcb;
+}
+
+/* ⭐ Responsive Design */
+@media (max-width: 1024px) {
+  .Title {
+    padding: 64px 50px;
+  }
+
+  .MainComainterSkill {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .span {
+    font-size: 32px;
+  }
+
+  .SkillName li {
+    font-size: 20px;
+  }
+
+  .SkillName p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Title {
+    padding: 50px 20px;
+  }
+
+  .span {
+    font-size: 28px;
+    gap: 10px;
+  }
+
+  .SkillName li {
+    font-size: 18px;
+  }
+
+  .SkillName p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MainExperience {
+  color: #fff;
+  padding: 64px 100px;
+}
+
+.ExperienceCon {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ExperienceConTitle {
+  font-family: "Syne", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ExperienceConTitle span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ExperienceList {
+  width: 100%;
+}
+
+.ExperienceContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+  padding: 20px 0;
+}
+
+.ExperienceContent h1 {
+  font-family: "Syne", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.comapnyName {
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.CompanyYear {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #cbcbcb;
+}
+
+/* ✅ Responsive Layout */
+@media (max-width: 768px) {
+  .MainExperience {
+    padding: 40px 20px;
+  }
+
+  .ExperienceConTitle {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .ExperienceConTitle span {
+    justify-content: center;
+  }
+
+  .ExperienceContent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .ExperienceContent h1 {
+    font-size: 22px;
+  }
+
+  .comapnyName,
+  .CompanyYear {
+    font-size: 14px;
+  }
+}

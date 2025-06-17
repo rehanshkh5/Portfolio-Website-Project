@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.Footers {
+  padding: 64px 100px 64px 100px;
+}
+.ScrollWrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background: black; /* optional */
+  padding: 10px 0;
+}
+
+.ScrollContent {
+  display: inline-block;
+  animation: scroll-left 20s linear infinite;
+}
+
+.scroolani {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 50px;
+
+  color: white;
+  font-family: "Syne", sans-serif;
+  font-size: 56px;
+  line-height: 88px;
+
+  font-weight: 700;
+}
+
+.footerLastT h1 {
+  font-family: "Syne", sans-serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 800;
+  text-align: center;
+}
+.footerLastT p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.ulFooterFlex {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footerLastFlex p {
+  font-family: "Syne", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.scroolani img {
+  width: 64px;
+  height: 64px;
+  margin-right: 8px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 768px) {
+  .Footers {
+    padding: 40px 20px;
+  }
+
+  .scroolani {
+    font-size: 32px;
+    line-height: 48px;
+    margin-right: 20px;
+  }
+
+  .scroolani img {
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+  }
+
+  .footerLastT h1 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .footerLastT p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .ulFooterFlex {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .footerLastFlex p {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
