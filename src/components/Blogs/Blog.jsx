@@ -1,8 +1,8 @@
 import "./Blog.css";
 import Star from "../../assets/Star.png";
-import BlogImg1 from "../../assets/Analysis Application.png";
-import BlogImg2 from "../../assets/Fortknox Application.png";
-import BlogImg3 from "../../assets/Zencode Application.png";
+import BlogImg1 from "../../assets/Analysis Application.jpg";
+import BlogImg2 from "../../assets/Fortknox Application.jpg";
+import BlogImg3 from "../../assets/Zencode Application.jpg";
 function Blog() {
   return (
     <>

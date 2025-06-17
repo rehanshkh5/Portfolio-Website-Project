@@ -29,6 +29,7 @@
   font-size: 16px;
   font-weight: 400;
   transition: max-height 0.3s ease, opacity 0.3s ease;
+  align-items: center;
 }
 
 .btn {

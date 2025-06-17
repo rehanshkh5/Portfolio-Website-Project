@@ -92,10 +92,14 @@ function Testimonial() {
 
       <img src={QoutesImage} alt="Qoutes" className="QoutesImg" />
       <div className="iconsDiv">
-        <button className="RectIcon  " onClick={handlePrev}>
-          <FaArrowLeft />
+        <button className="RectIcon" onClick={handlePrev}>
+          <FaArrowLeft style={{ color: "#000", fontSize: "20px" }} />
         </button>
-        <button className="RectIcon  " onClick={handleNext}>
+        <button
+          className="RectIcon"
+          onClick={handleNext}
+          style={{ color: "#000", fontSize: "20px" }}
+        >
           <FaArrowRight />
         </button>
       </div>

@@ -56,6 +56,10 @@
   font-size: 14px;
   line-height: 20px;
 }
+.footerLastFlex {
+  display: flex;
+  justify-content: space-between;
+}
 .footerLastFlex p {
   font-family: "Syne", sans-serif;
   font-weight: 400;

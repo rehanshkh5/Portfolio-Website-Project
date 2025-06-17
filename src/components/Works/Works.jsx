@@ -1,8 +1,8 @@
 import "./Works.css";
 import Star from "../../assets/Star.png";
-import HeroImg1 from "../../assets/Analysis Application.png";
-import HeroImg2 from "../../assets/Fortknox Application.png";
-import HeroImg3 from "../../assets/Zencode Application.png";
+import HeroImg1 from "../../assets/Analysis Application.jpg";
+import HeroImg2 from "../../assets/Fortknox Application.jpg";
+import HeroImg3 from "../../assets/Zencode Application.jpg";
 
 function Works() {
   return (

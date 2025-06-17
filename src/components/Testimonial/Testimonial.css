@@ -65,13 +65,16 @@
   gap: 25px;
   margin-top: -5rem;
 }
-
 .RectIcon {
   width: 40px;
   height: 40px;
   padding: 8px;
   border-radius: 100px;
-  color: black;
+  background: transparent;
+  color: black; /* 👈 Add this */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profileImg img {
