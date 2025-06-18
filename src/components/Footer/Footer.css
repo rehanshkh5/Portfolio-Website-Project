@@ -113,16 +113,22 @@
   .ulFooterFlex {
     /* flex-direction: column; */
     gap: 12px;
-    align-items: center;
-    text-align: center;
+    /* align-items: center;
+    text-align: center; */
     padding: 0;
     margin-top: 2rem;
   }
 
   .footerLastFlex p {
     font-size: 12px;
-    line-height: 18px;
+    /* line-height: 18px;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 1rem; */
+  }
+  .footerLastFlex {
+    /* line-height: 18px;
+    text-align: center;
+    margin-top: 1rem; */
+    align-items: baseline;
   }
 }
